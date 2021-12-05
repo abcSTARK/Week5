@@ -11,9 +11,9 @@ public class Login {
     int otp;
     public void getLoginDetails() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the account number:");
+        System.out.println("Enter the account number(Hint -- 1011,1012,1013):");
         acc = scanner.nextInt();
-        System.out.println("Enter the Password:");
+        System.out.println("Enter the Password(Hint -- 123,1234,12345):");
         pass = scanner.nextInt();
     }
 

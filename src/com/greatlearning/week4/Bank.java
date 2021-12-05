@@ -35,8 +35,8 @@ public class Bank {
             int amount = accdetail.get(accno);
             amount += depositAmt;
             accdetail.put(accno, amount);
-            System.out.println("amount Rs." + depositAmt + " deposited successfully ... ");
-            log.generateLog("amount Rs." + depositAmt + " deposited successfully ... ");
+            System.out.println("amount Rs." + depositAmt + " deposited successfully ... to acc : "+ accno);
+            log.generateLog("amount Rs." + depositAmt + " deposited successfully ...to acc : "+ accno);
         }
     }
 
@@ -51,8 +51,8 @@ public class Bank {
         {
             amount-=withdrawAmt;
             accdetail.put(accno,amount);
-            System.out.println("Amount Withdrawn Successfully-->Rs."+withdrawAmt);
-            log.generateLog("Amount Withdrawn Successfully-->Rs."+withdrawAmt);
+            System.out.println("Amount Withdrawn Successfully-->Rs."+withdrawAmt+" from acc "+accno);
+            log.generateLog("Amount Withdrawn Successfully-->Rs."+withdrawAmt+" from acc "+accno);
         }
     }
 

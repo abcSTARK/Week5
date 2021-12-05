@@ -1,2 +1,5 @@
 ******** Log For Last Session ********
-amount Rs.6568 deposited successfully ... 
+amount Rs.7678 deposited successfully ...to acc : 1011
+Amount Withdrawn Successfully-->Rs.98 from acc 1011
+-------Wrong OTP Try Again-------
+Amount Transferred Successfully-->Rs.768
