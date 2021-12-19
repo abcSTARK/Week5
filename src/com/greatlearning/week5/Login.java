@@ -1,4 +1,4 @@
-package com.greatlearning.week4;
+package com.greatlearning.week5;
 
 import java.util.HashMap;
 import java.util.Random;
@@ -42,9 +42,9 @@ public class Login {
 
         if(map.get(acc)==pass){
         //if(true){
-            System.out.println("||| Welcome to Indian Bank |||");
-            Customers customers = new Customers();
-            customers.enterMenu(acc);
+            System.out.println("||| Welcome to Student Directory |||");
+            StudentsMenu studentsMenu = new StudentsMenu();
+            studentsMenu.enterMenu(acc);
 
         }
         else {
